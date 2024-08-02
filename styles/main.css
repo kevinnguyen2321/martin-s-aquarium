@@ -1,9 +1,21 @@
+body {
+  background-image: linear-gradient(
+    178.7deg,
+    rgba(126, 184, 253, 1) 5.6%,
+    rgba(2, 71, 157, 1) 95.3%
+  );
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  color: #ffffff;
+}
+
 header h1 {
   text-align: center;
 }
 
 .fish-header {
-  width: 100%;
+  width: 62%;
+  margin-right: 90px;
+  font-size: 1.5rem;
 }
 
 .fish-header h1 {
@@ -13,7 +25,7 @@ header h1 {
 .fish {
   flex-basis: 300px;
   flex-grow: 1;
-  max-width: 300px;
+  max-width: 270px;
   max-height: 200px;
   margin-bottom: 20px;
   display: flex;
@@ -41,7 +53,7 @@ header h1 {
 .location {
   flex-basis: 300px;
   flex-grow: 1;
-  max-width: 350px;
+  max-width: 310px;
   max-height: 170px;
   margin-bottom: 20px;
   display: flex;
@@ -59,4 +71,9 @@ header h1 {
 .location:hover {
   transform: translateY(-5px);
   box-shadow: 4px 4px 8px rgba(0, 0, 0, 0.6);
+}
+
+.fish,
+.location {
+  color: black;
 }

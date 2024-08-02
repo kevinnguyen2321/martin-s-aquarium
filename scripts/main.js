@@ -1,6 +1,9 @@
 import { fishList } from './fishList.js';
 import { tipList } from './tipList.js';
 import { locationList } from './locationList.js';
+import { mostHolyFish } from './holy-fish.js';
+import { soldierFish } from './soldier-fish.js';
+import { regularFish } from './regular-fish.js';
 
 // Generate the fish list
 const fishHTML = fishList();
@@ -20,3 +23,16 @@ tipSection.innerHTML = tipHTML;
 
 const locationSection = document.getElementById('locationList');
 locationSection.innerHTML = locationHTML;
+
+// //Martin's fish list//
+
+// //Holy fish//
+const holyFishes = mostHolyFish();
+
+// //Soldier fish//
+const soldierFishes = soldierFish();
+
+// //Regular fish//
+const regularFishes = regularFish();
+
+fishSection.innerHTML = `${holyFishes}${soldierFishes}${regularFishes}`;

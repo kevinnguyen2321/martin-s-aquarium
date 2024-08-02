@@ -48,7 +48,7 @@ export const database = {
     {
       name: 'Banana',
       species: 'Yellow Tang',
-      length: 5,
+      length: 15,
       location: 'Great Barrier Reef',
       diet: 'Omnivore',
       image:
@@ -57,7 +57,7 @@ export const database = {
     {
       name: 'Mory',
       species: 'Moray Eel',
-      length: 5,
+      length: 27,
       location: 'Australia',
       diet: 'Omnivore',
       image:
@@ -66,11 +66,74 @@ export const database = {
     {
       name: 'Frank',
       species: 'Blue Boxfish',
-      length: 5,
+      length: 2,
       location: 'Great Barrier Reed',
       diet: 'Omnivore',
       image:
         'https://images.unsplash.com/photo-1522721161886-ecb3e3b9f3e6?q=80&w=2055&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D',
+    },
+    {
+      name: 'Marlin',
+      species: 'Blue Marlin',
+      length: 15, // divisible by 5
+      location: 'Atlantic Ocean',
+      diet: 'Carnivore',
+      image:
+        'https://media.gettyimages.com/id/140189540/vector/a-sleek-blue-marlin-bursts-from-the-ocean-surface-in-a-grand-leap.jpg?s=2048x2048&w=gi&k=20&c=0QAY8z5lbo1BA27NYJfVy-VVqHKX1Tj6AIuVnZCesn0=',
+    },
+    {
+      name: 'Gurgle',
+      species: 'Royal Gramma',
+      length: 5, // divisible by 5
+      location: 'Caribbean Sea',
+      diet: 'Carnivore',
+      image:
+        'https://media.gettyimages.com/id/521947320/photo/gramma-loreto.jpg?s=2048x2048&w=gi&k=20&c=EUqqF-Ospv_wI1-ZNHlfqUTsciGp8gyqHMSYka2C9wc=',
+    },
+    {
+      name: 'Peach',
+      species: 'Starfish',
+      length: 8,
+      location: 'Indian Ocean',
+      diet: 'Omnivore',
+      image:
+        'https://media.gettyimages.com/id/520120912/photo/sea-star-in-the-solomon-islands.jpg?s=2048x2048&w=gi&k=20&c=VTElxDTP-DKJv5r6XrJ_BIwuO4cesClDc7TrUBbp0b8=',
+    },
+    {
+      name: 'Bloat',
+      species: 'Pufferfish',
+      length: 9, // divisible by 3
+      location: 'Red Sea',
+      diet: 'Omnivore',
+      image:
+        'https://media.gettyimages.com/id/590008648/photo/yellowspotted-burrfish-cyclichthys-spilostylus-sharm-el-sheikh-sinai-red-sea-egypt.jpg?s=2048x2048&w=gi&k=20&c=B8v53YElz7ZcH8VNgvSix-4mamXVJBwjhtwwNl3iOnM=',
+    },
+    {
+      name: 'Gill',
+      species: 'Moorish Idol',
+      length: 10, // divisible by 5
+      location: 'Indian Ocean',
+      diet: 'Omnivore',
+      image:
+        'https://media.gettyimages.com/id/154948410/photo/moorish-idol-fish-swimming-over-a-reef.jpg?s=2048x2048&w=gi&k=20&c=ousRd-WXIxqrHqHUZm5lF6i6Eebbfm8Zpdjqr2mRgyI=',
+    },
+    {
+      name: 'Squirt',
+      species: 'Sea Turtle',
+      length: 12, // divisible by 3
+      location: 'Great Barrier Reef',
+      diet: 'Omnivore',
+      image:
+        'https://media.gettyimages.com/id/504241856/photo/green-turtle-approaching-water-surface.jpg?s=2048x2048&w=gi&k=20&c=XNjcJy_EZ9YRYx18BZYCRNmRgxOsIkElHu2bG7sLpH4=',
+    },
+    {
+      name: 'Anchor',
+      species: 'Hammerhead Shark',
+      length: 20, // divisible by 5
+      location: 'Pacific Ocean',
+      diet: 'Carnivore',
+      image:
+        'https://media.gettyimages.com/id/611396552/photo/great-hammerhead-shark-with-jaws-open.jpg?s=2048x2048&w=gi&k=20&c=irmyhIo8db1Pj_C-EMI89Jpnx_Sc-absXbeVLz0ye0U=',
     },
   ],
   tips: [
